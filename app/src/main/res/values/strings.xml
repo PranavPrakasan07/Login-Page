@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TaskEvent</string>
+    <string name="changetext">New User?</string>
+    <string name="buttontext">Login</string>
+    <string name="name">Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="enter_password"></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_name"></string>
+    <string name="password">Password</string>
+    <string name="about_text">About Us</string>
+    <string name="description">We find you with the best designs you are in search of, fully free, and of course, with the permission to commercialize.</string>
+    <string name="whatapp_handle">Whatapp Handle</string>
+    <string name="instagram_handle">Instagram Handle</string>
+    <string name="gmail">Gmail</string>
+    <string name="facebook">Facebook</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="gmailsend">TODO</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password_to_login">Enter Password</string>
+    <string name="enter_your_mobile_number">"  Enter Your Mobile Number"</string>
+    <string name="enter_your_name">"  Enter Your Name"</string>
+    <string name="set_your_password">"  Set Your Password"</string>
+    <string name="enter_password_login">"  Enter Password"</string>
+    <string name="enter_username_login">"  Enter Username"</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="and_much_more_to_come">-- And much more to come...</string>
+    <string name="about_us_button">About Us</string>
+    <string name="todo_description">TODO</string>
+    <string name="todo">TODO</string>
+</resources>
