@@ -22,7 +22,7 @@
         android:textColor="#FFF"/>
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/facebook"
         android:layout_width="38dp"
         android:layout_height="87dp"
         android:contentDescription="@string/facebook"
@@ -35,7 +35,7 @@
         app:srcCompat="@drawable/facebook" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/instagram"
         android:layout_width="42dp"
         android:layout_height="88dp"
         android:contentDescription="@string/instagram_handle"
@@ -48,7 +48,7 @@
         app:srcCompat="@drawable/instagram" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/whatsapp"
         android:layout_width="48dp"
         android:layout_height="92dp"
         android:contentDescription="@string/whatapp_handle"
@@ -76,7 +76,7 @@
         app:layout_constraintVertical_bias="0.246" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/gmail"
         android:layout_width="37dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"

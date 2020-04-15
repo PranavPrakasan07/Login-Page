@@ -5,18 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Signup"
-    android:background="@drawable/phoneback44">
+    android:background="@drawable/phoneback44"
+    >
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="92dp"
         android:text="@string/name"
         android:textColor="#f79d00"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintHorizontal_bias="0.159"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,10 +39,10 @@
         android:id="@+id/signup"
         android:layout_width="108dp"
         android:layout_height="56dp"
-        android:background="#f79d00"
+        android:background="@drawable/custom_button"
         android:text="@string/sign_up"
         android:textStyle="bold"
-        android:onClick="startActivityLogin"
+        android:onClick="login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -51,37 +52,37 @@
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="224dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
-        android:background="@drawable/custom_button"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_textfield"
         android:ems="10"
+        android:hint="@string/set_your_password"
         android:inputType="textPassword"
         android:text="@string/enter_password"
-        android:hint="@string/set_your_password"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.354" />
 
     <EditText
         android:id="@+id/editText4"
-        android:layout_width="221dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
-        android:background="@drawable/custom_button"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:autofillHints=""
+        android:background="@drawable/custom_textfield"
         android:ems="10"
+        android:hint="@string/enter_your_name"
         android:inputType="textPersonName"
         android:text="@string/enter_name"
-        android:hint="@string/enter_your_name"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.361"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.174"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.191" />
 
     <TextView
         android:id="@+id/textView3"
@@ -99,18 +100,18 @@
 
     <EditText
         android:id="@+id/editText5"
-        android:layout_width="221dp"
+        android:layout_width="225dp"
         android:layout_height="40dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginLeft="64dp"
-        android:background="@drawable/custom_button"
+        android:autofillHints=""
+        android:background="@drawable/custom_textfield"
         android:ems="10"
-        android:inputType="phone"
         android:hint="@string/enter_your_mobile_number"
+        android:inputType="phone"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.526"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.526" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

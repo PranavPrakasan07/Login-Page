@@ -4,9 +4,9 @@
     <string name="buttontext">Login</string>
     <string name="name">Name</string>
     <string name="mobile_number">Mobile Number</string>
-    <string name="enter_password"></string>
+    <string name="enter_password"/>
     <string name="sign_up">Sign Up</string>
-    <string name="enter_name"></string>
+    <string name="enter_name"/>
     <string name="password">Password</string>
     <string name="about_text">About Us</string>
     <string name="description">We find you with the best designs you are in search of, fully free, and of course, with the permission to commercialize.</string>
@@ -24,8 +24,12 @@
     <string name="enter_password_login">"  Enter Password"</string>
     <string name="enter_username_login">"  Enter Username"</string>
     <string name="welcome_text">Welcome</string>
-    <string name="and_much_more_to_come">-- And much more to come...</string>
+    <string name="and_much_more_to_come">-- And much more to come</string>
     <string name="about_us_button">About Us</string>
     <string name="todo_description">TODO</string>
     <string name="todo">TODO</string>
+    <string name="our_collections">Our Collections</string>
+    <string name="see_categories">Find Another Set</string>
+    <string name="viewText">TextView</string>
+    <string name="view_Text">TextView</string>
 </resources>
