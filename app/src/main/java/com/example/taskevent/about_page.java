@@ -41,6 +41,7 @@ public class about_page extends AppCompatActivity {
             }
         });
 
+
         imagef.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
